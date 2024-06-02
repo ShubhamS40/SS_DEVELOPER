@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from 'components/Header'
+import shubham from '../../assets/images/shubham.jpeg'
+import sunil from '../../assets/images/sunil.jpeg'
+import rahul from '../../assets/images/rahul.jpeg'
 import Footer from 'components/Footer'
 import profileImage from '../../assets/images/Professional LinkedIn Profile Picture.png'
 import uiux from '../../assets/images/uiux.jpg'
 import product from '../../assets/images/product.jpg'
 import web from '../../assets/images/web.jpg'
 import { Button } from 'components'
-import rahul from '../../assets/images/rahul.jpeg'
-import sunil from '../../assets/images/sunil.jpeg'
-import shubham from '../../assets/images/shubham.jpeg'
 
 
 function Profile() {
