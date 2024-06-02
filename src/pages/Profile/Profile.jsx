@@ -6,7 +6,9 @@ import uiux from '../../assets/images/uiux.jpg'
 import product from '../../assets/images/product.jpg'
 import web from '../../assets/images/web.jpg'
 import { Button } from 'components'
-import shubham from '../../assets/images/SHUBHAM.jpeg'
+import rahul from '../../assets/images/rahul.jpeg'
+import sunil from '../../assets/images/sunil.jpeg'
+import shubham from '../../assets/images/shubham.jpeg'
 
 
 function Profile() {
@@ -14,10 +16,10 @@ function Profile() {
     <>
       <Header />
       <div>
-        <div className='border-2 border-gray-500 rounded-3xl flex flex-wrap m-8 h-auto  sm:h-[100vh] '>
+        <div className='border-2 sm:border-0 border-gray-500 rounded-3xl flex flex-wrap m-8 h-auto  sm:h-[100vh] '>
           <div className='w-[100%] bg-white items-center h-[80vh] flex flex-wrap justify-around'>
             {/* Content Items */}
-            <div className='flex-row w-[400px]  p-5   text-xl font-bold font-sans space-y-5'>
+            <div className='flex-row w-[400px]  p-5 sm:p-1  text-xl font-bold font-sans space-y-5'>
               
               <div className='text-3xl'>
                 -- Hello
@@ -36,7 +38,7 @@ function Profile() {
                   <button className="fill size-lg   !rounded-[5px] min-w-[201px] sm:min-w-[15vw]  px-[35px] h-[67px]  items-center justify-center !bg-pink-700 text-center text-base font-bold !text-white-A700  ">
                     Resume
                   </button>
-                  <button className="bordered size-lg black_900 button ui !rounded-[5px] min-w-[201px] sm:min-w-[21vw] !border-[3px] h-[67px] flex flex-row items-center justify-center !border-solid !border-pink-700 px-8 text-center text-base font-bold !text-black-900 sm:px-5">
+                  <button className="bordered size-lg black_900 button ui !rounded-[5px] min-w-[201px] sm:min-w-[30vw] !border-[3px] h-[67px] flex flex-row items-center justify-center !border-solid !border-pink-700 px-8 text-center text-base font-bold !text-black-900 sm:px-5">
                     Join</button>
                 </div>
               </div>
@@ -47,7 +49,7 @@ function Profile() {
 
             {/* Profile Image */}
 
-            <div className='w-[500px] sm:w-[200px] '>
+            <div className='w-[45vw] sm:w-[500vw]  '>
               <img src="https://img.freepik.com/premium-vector/programmers-develop-applications_118813-1954.jpg?w=740" alt="" />
             </div>
 
@@ -57,33 +59,32 @@ function Profile() {
 
         <div>
           <div className='flex justify-between m-10 sm:m-5  '>
-            <h1 className='text-3xl font-serif font-bold '>Meet Our Team</h1>
-            <h1 className='text-pink-600 text-2xl cursor-pointer'>View All</h1>
+            <h1 className='text-3xl sm:text-xl font-serif font-bold '>Meet Our Team</h1>
+            <h1 className='text-pink-600 text-2xl sm:text-xl cursor-pointer'>View All</h1>
           </div >
 
-          <div className='flex flex-wrap space-y-5 justify-around border-4 border-pink-600 p-5 m-10 rounded-3xl'>
+          <div className='flex flex-wrap space-y-10 justify-around border-4 sm:border-0 border-pink-600 p-5 m-10 sm:p-1 sm:m-1 rounded-3xl'>
           
           <div className='hidden'>
 
           </div>
 
-          <div className='text-xl border-2'>
-            <img className='h-72' src="https://media.istockphoto.com/id/1327592506/vector/default-avatar-photo-placeholder-icon-grey-profile-picture-business-man.jpg?s=612x612&w=0&k=20&c=BpR0FVaEa5F24GIw7K8nMWiiGmbb8qmhfkpXcp1dhQg=" alt="" />
-                <h1>Name</h1>
-              <h1>Desiganation</h1>
+          <div className='text-xl border-2 space-y-3 border-pink-600 p-5 rounded-lg  '>
+            <img className='h-72' src={sunil} alt="" />
+                <h1>Name : Sunil Sharma</h1>
+              <h1 className='w-72' >Desiganation : Social Media & Account Heandler</h1>
             </div>
 
-            <div className='text-xl border-2'>
-            <img className='h-72' src="https://media.istockphoto.com/id/1327592506/vector/default-avatar-photo-placeholder-icon-grey-profile-picture-business-man.jpg?s=612x612&w=0&k=20&c=BpR0FVaEa5F24GIw7K8nMWiiGmbb8qmhfkpXcp1dhQg=" alt="" />
-                <h1>Name</h1>
-              <h1>Desiganation</h1>
+            <div className='text-xl border-2 border-pink-600 p-5 space-y-3 rounded-lg '>
+            <img className='h-72' src={shubham} alt="" />
+                <h1>Name : Shubham Singh </h1>
+              <h1>Desiganation : Techanical Lead</h1>
             </div>
-            <div className='text-xl border-2'>
-            <img className='h-72' src="https://media.istockphoto.com/id/1327592506/vector/default-avatar-photo-placeholder-icon-grey-profile-picture-business-man.jpg?s=612x612&w=0&k=20&c=BpR0FVaEa5F24GIw7K8nMWiiGmbb8qmhfkpXcp1dhQg=" alt="" />
-                <h1>Name</h1>
-              <h1>Desiganation</h1>
+            <div className='text-xl border-2 border-pink-600 p-5 space-y-3 rounded-lg '>
+            <img className='h-72' src={rahul} alt="" />
+                <h1>Name : Rahul</h1>
+              <h1>Desiganation : Content Creator</h1>
             </div>
-
           </div>
 
 

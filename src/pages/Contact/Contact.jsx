@@ -38,8 +38,8 @@ function Contact() {
         <div>
             <Header />
 
-            <div className="max-w-[1191px] gap-[41px] mt-[100px] mx-auto flex w-full items-center md:flex-col md:p-5">
-                <form method='POST' onSubmit={handleSubmit} className="border-2 m-5 sm:border-4 border-pink-700 rounded-[20px] py-[72px] gap-[23px] pl-[72px] flex flex-1 flex-col items-start bg-white-A400 pr-14 shadow-xs md:self-stretch md:p-5">
+            <div className="max-w-[1191px] gap-[60px] mt-[100px] mx-auto flex w-full items-center md:flex-col md:p-5">
+                <form method='POST' onSubmit={handleSubmit} className="border-2 m-5 sm:m-1 sm:my-[-25px] sm:border-4 border-pink-700 rounded-[20px] py-[72px] gap-[29px] pl-[72px] flex flex-1 flex-col items-start bg-white-A400 pr-14 shadow-xs md:self-stretch sm:p-5">
                     <div className="w-[89%] flex flex-col items-start self-center md:w-full">
                         <h2 className="size-lg bg-gray-100 heading ui text-xl font-bold !text-gray-600">
                             Send Message

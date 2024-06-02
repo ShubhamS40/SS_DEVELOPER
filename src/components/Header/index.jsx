@@ -50,7 +50,7 @@ const [menuOpen, setMenuOpen] = useState(false);
                   <Link to={"/news"}><li className={`${isActive("/news")}`}>News</li></Link>
                   <Link to={"/contact"}><li className={`${isActive("/contact")}`}>Contact</li></Link>
                   <Link to={"/about"}><li className={`${isActive("/about")}`}>About</li></Link>
-                  <Link to={"/weather"}><li className={`${isActive("/weather")}`}>Weather</li></Link>
+                  {/* <Link to={"/weather"}><li className={`${isActive("/weather")}`}>Weather</li></Link> */}
                 </>
               {/* ) : null} */}
             </ul>
@@ -87,7 +87,7 @@ const [menuOpen, setMenuOpen] = useState(false);
        </div>
 
        {
-        menuOpen?  <div  className="absolute h-auto p-5 w-[100vw]   top-20 text-white-A700  bg-pink-700 transition-all  " >   
+        menuOpen?  <div  className="absolute h-auto p-5 w-[100vw]   top-20 text-white-A700 bg-gradient-to-b from-pink-700 to-pink-400 opacity-[0.9] transition-all  " >   
           <div className='text-white-A700'>
             <ul className=' grid grid-rows-5 justify-center items-center space-y-3.5 cursor-pointer font-sans text-xl font-bold transition-all duration-50 ease-in-out '>
               <Link to={"/"}><li >Home</li></Link>
@@ -96,7 +96,12 @@ const [menuOpen, setMenuOpen] = useState(false);
                   <Link to={"/news"}><li>News</li></Link>
                   <Link to={"/contact"}><li>Contact</li></Link>
                   <Link to={"/about"}><li className={`${isActive("/about")}`}>About</li></Link>
-                  <Link to={"/weather"}><li className={`${isActive("/weather")}`}>Weather</li></Link>
+                  {/* <Link to={"/weather"}><li className={`${isActive("/weather")}`}>Weather</li></Link> */}
+                  <Link to={"/register"}><li className={`${isActive("/weather")}`}>Sign-up</li></Link>
+                  <Link to={"/login"}><li className={`${isActive("/weather")}`}>Login</li></Link>
+                  
+             
+              
                 </>
               {/* ) : null} */}
             </ul>

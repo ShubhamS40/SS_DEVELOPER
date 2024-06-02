@@ -70,7 +70,7 @@ export default function Footer({ ...props }) {
 <div className='grid  '>
   
 
-    <div className=' bg-gray-800 w-[205px]  sm:w-[55vw] sm:mb-2 p-4 rounded-lg text-white-A700 self-center'>
+    <div className=' bg-gray-800 w-[205px]  sm:w-[50vw] sm:mb-2 p-4 rounded-lg text-white-A700 self-center'>
         <input  type="email" placeholder="Enter your email" />
     </div>
     <div>

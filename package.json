@@ -2,9 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  
-
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@craco/craco": "^7.1.0",
+    "@craco/craco": "^5.9.0",
     "@tailwindcss/forms": "^0.5.7",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
@@ -29,7 +26,6 @@
     "react-router-dom": "^6.0.2",
     "react-router-hash-link": "^2.4.3"
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
