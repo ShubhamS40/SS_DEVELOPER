@@ -143,7 +143,7 @@ export default function HomepagePage() {
       </Helmet>
       <div className="w-full bg-white-A700">
         <div className="flex flex-col items-center">
-          <Header className="self-stretch" />
+         
           <div className="mx-auto mt-[50px] flex w-full max-w-[1292px] flex-col gap-[49px] md:p-5">
             <div className="flex items-center gap-[50px] md:flex-col">
               <Img src="images/img_rectangle_5.png" alt="image" className="h-[255px] w-[48%] object-cover md:w-full" />
@@ -830,7 +830,7 @@ export default function HomepagePage() {
               Subscribe Now
             </Button>
           </div>
-          <Footer className="mt-[120px]" />
+          
         </div>
       </div>
     </>

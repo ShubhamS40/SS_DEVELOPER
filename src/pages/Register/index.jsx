@@ -50,7 +50,7 @@ useEffect(()=>{
       </Helmet>
       <div className="w-full bg-white-A700">
         <div className="flex flex-col items-center">
-          <Header className="self-stretch" />
+         
           <div className="mt-[53px] flex w-[90%] flex-col items-center md:w-full md:p-5">
             <div className="flex w-[46%] flex-col gap-[29px] md:w-full">
               <Heading size="4xl" as="h1" className="tracking-[-0.50px]">
@@ -149,7 +149,7 @@ useEffect(()=>{
               </div>
             </div>
           </div>
-          <Footer className="mt-[120px]" />
+         
         </div>
       </div>
     </>

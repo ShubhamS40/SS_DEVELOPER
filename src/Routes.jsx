@@ -9,40 +9,26 @@ import Profile from "pages/Profile/Profile";
 import Contact from "pages/Contact/Contact";
 import About from "pages/About/About";
 import Wheather from "pages/Wheather/Wheather";
-
+import App from "App";
+import MainLayout from "Maincomponent";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "dhiwise-dashboard", element: <Home /> },
     { path: "*", element: <NotFound /> },
     {
       path: "/",
-      element: <Profile />,
+      element: <MainLayout />,
+      children: [
+        { path: "/", element: <Profile /> },
+        { path: "", element: <Home /> },
+        { path: "login", element: <Login /> },
+        { path: "register", element: <Register /> },
+        { path: "news", element: <Homepage /> },
+        { path: "contact", element: <Contact /> },
+        { path: "about", element: <About /> },
+        // { path: "weather", element: <Weather /> }
+      ],
     },
-    {
-      path: "login",
-      element: <Login />,
-    },
-    {
-      path: "register",
-      element: <Register />,
-    },
-    {
-      path: "/news",
-      element: <Homepage />,
-    },
-    {
-      path: "/contact",
-      element: <Contact />,
-    },
-    {
-      path: "/about",
-      element: <About />,
-    }, 
-    {
-      path: "/weather",
-      element: <Wheather/>,
-    }
   ]);
 
   return element;

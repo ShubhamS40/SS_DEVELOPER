@@ -1,13 +1,12 @@
 import React from "react";
-import Routes from "./Routes";
-import { BrowserRouter as Router } from "react-router-dom";
+import ProjectRoutes from "./Routes";  // Adjust the path as necessary
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <Routes />
-    </Router>
+    <div>
+      <ProjectRoutes />
+    </div>
   );
-}
+};
 
 export default App;

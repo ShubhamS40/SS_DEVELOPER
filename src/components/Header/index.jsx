@@ -31,7 +31,7 @@ const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header
       {...props}
-      className={`${props.className} flex justify-around w-[100%] items-end py-[3.5px] z-10 static sm:py-2 bg-black-900`}
+      className={`${props.className} flex justify-around w-[100%] items-end py-[3.5px] z-10   sm:py-2 top-0 sticky bg-black-900`}
     >
       <div className='w-[100%] flex justify-between px-7'>
         {/* Logo and navigation */}

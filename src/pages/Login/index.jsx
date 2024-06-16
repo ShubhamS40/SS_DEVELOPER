@@ -36,7 +36,7 @@ export default function LoginPage() {
       </Helmet>
       <div className="w-full bg-white-A700">
         <div className="flex flex-col gap-[50px]">
-          <Header />
+          
           <div className="flex flex-col items-center gap-[124px] md:gap-[93px] sm:gap-[62px]">
             <div className="container-xs flex justify-center md:p-5">
               <div className="flex w-full items-start justify-between gap-5 md:flex-col">
@@ -122,7 +122,7 @@ export default function LoginPage() {
                 </div>
               </div>
             </div>
-            <Footer />
+            
           </div>
         </div>
       </div>
