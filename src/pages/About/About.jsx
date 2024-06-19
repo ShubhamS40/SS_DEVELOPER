@@ -148,14 +148,14 @@ function About() {
 
          {/* Github */}
 
-<div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 p-20">
-  <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-5 max-md:col-span-12 !p-0">
+<div style={{backgroundColor:'#E91E63'}}  className="grid rounded-2xl opacity-[0.9] grid-cols-12  m-10 gap-4 xs:gap-6 md:gap-8 p-20">
+  <div className=" sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-5 max-md:col-span-12 !p-0">
     {/* Image with GitHub top languages stats */}
-    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepak16375&theme=transparent&layout=compact&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
+    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ssdevloper&theme=transparent&layout=compact&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
   </div>
   <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-7 max-md:col-span-12 !p-0">
     {/* Image with GitHub stats */}
-    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api?username=deepak16375&theme=transparent&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
+    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api?username=ssdevloper&theme=transparent&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
   </div>
   <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-full">
     {/* Image with skill icons */}
@@ -163,30 +163,30 @@ function About() {
   </div>
   <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-6 !p-0">
     {/* Image with GitHub streak stats */}
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=deepak16375&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="GitHub Streak Stats" loading="lazy" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=ssdevloper&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="GitHub Streak Stats" loading="lazy" />
   </div>
   <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-6 !p-0">
     {/* Link to GitHub repository */}
-    <a target="_blank" className="w-full" href="https://github.com/deepak16375/100DaysOfCode-Python">
-      <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/pin/?username=deepak16375&exclude&repo=100DaysOfCode-Python&theme=transparent&hide_border=true&title_color=FFFFFF" alt="GitHub Repository Stats" loading="lazy" />
+    <a target="_blank" className="w-full" href="https://github.com/ssdevloper/100DaysOfCode-Python">
+      <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/pin/?username=ssdevloper&exclude&repo=100DaysOfCode-Python&theme=transparent&hide_border=true&title_color=FFFFFF" alt="GitHub Repository Stats" loading="lazy" />
     </a>
   </div>
 </div>
 
 
 
-{/* Devloper */}
+ {/* Devloper */}
 
-         <div className="flex items-center justify-center mb-[5%] mt-[10%]">
-  <header className="flex justify-center w-full p-5">
+  <div className="flex items-center justify-center mb-[5%] mt-[10%]">
+   <header className="flex justify-center w-full p-5">
     <div className="logo w-[90%]">
       <img src="https://themeatelier.net/site-templates/iproof/img/about-img/about-img.jpg" alt="" />
     </div>
     <nav>
       {/* Navigation items go here */}
     </nav>
-  </header>
-  <div className="flex items-center justify-center w-full">
+   </header>
+   <div className="flex items-center justify-center w-full">
     <div className="flex flex-col items-start p-10 bg-white shadow-lg rounded-lg">
       <h2 className="text-2xl font-bold text-gray-800">I'm a Developer</h2>
       <p className="text-lg text-gray-600">I Develop Applications that Help People</p>

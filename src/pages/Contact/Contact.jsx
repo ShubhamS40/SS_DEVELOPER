@@ -77,7 +77,7 @@ function Contact() {
                             </div>
                             <div className="gap-[25px] flex items-center">
                             <FaEarthAfrica />
-                                <h5 className="size-s heading ui text-[17px] self-start font-semibold !text-gray-400_01">www.</h5>
+                                <h5 className="size-s heading ui text-[17px] self-start font-semibold !text-gray-400_01">www.ssdevloper.vercel.app</h5>
                             </div>
                             <div className="gap-[25px] flex items-start">
                             <FaLinkedin />
