@@ -134,8 +134,8 @@ function Profile() {
             </div>
             <div style={{ backgroundImage: `url(${"https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className="flex sm:flex-wrap p-10 sm:p-0  w-[100%]  justify-center">
               {teamMembers.map((member, index) => (
-                <div key={index} className=" w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                  <div className="bg-white rounded-lg p-6 shadow-lg bg-white-A700">
+                <div key={index} className=" w-full  sm:w-[90%] md:w-1/3 lg:w-1/4 p-4">
+                  <div className="bg-white rounded-lg p-6 shadow-lg sm:w-[100%] bg-white-A700">
                     <div className="mb-4">
                       <div
                         className="w-24 h-24 rounded-full mx-auto bg-cover bg-center"
@@ -182,8 +182,9 @@ function Profile() {
 
           <section className="text-center py-10">
             <h2 className="text-2xl text-blue-500">My services</h2>
-            <h1 className="text-5xl font-extrabold mt-2">What I do <br /> for My Customers</h1>
-            <div className="flex justify-center p-[36px] h-auto w-auto m-[90px] space-x-10">
+            <h1 className="text-5xl sm:text-3xl font-extrabold mt-2">What I do <br /> for My Customers</h1>
+            <div className="flex sm:gap-5 flex-wrap justify-center p-[36px] h-auto w-auto sm:m-0  m-[90px] space-x-10">
+              <h1 className='hidden'>ok</h1>
               <div className="bg-white space-y-5 text-left cursor-pointer hover:text-white-A700 text-black w-[800px] rounded-lg px-[22px] py-10 shadow-md hover:bg-pink-500 hover:text-white transition-colors duration-300 will-change-transform transform hover:-rotate-2 hover:scale-105">
                 <div className="h-16 w-16">
                   <TfiWindow className="h-16 w-16" />
@@ -216,17 +217,17 @@ function Profile() {
 
 
 
-        <div className='flex mb-5'>
-        <header className="flex justify-center w-full p-5">
+        <div className='flex sm:flex-wrap mb-5'>
+        <header className="flex sm:flex-wrap justify-center w-full p-5">
             <div className="logo w-[90%]">
-              <img src="https://themeatelier.net/site-templates/iproof/img/about-img/about-img.jpg" alt="" />
+              <img src="https://omnidev-courses.vercel.app/_next/static/media/appdeva.257ad748.svg" alt="" />
             </div>
        
           </header>
           <div className="flex items-center justify-center w-full">
             <div className="flex flex-col items-start p-10 bg-white shadow-lg rounded-lg">
-              <h2 className="text-2xl font-bold text-gray-800">I'm a Developer</h2>
-              <p className="text-lg text-gray-600">I Develop Applications that Help People</p>
+              <h2 className="text-2xl font-bold text-gray-800">App Devlopment</h2>
+              <p className="text-lg text-gray-600">Using Flutter And Firebase Createing Real World Application</p>
               <p className="mt-4 text-gray-500">
                 Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat
               </p>

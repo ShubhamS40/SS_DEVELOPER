@@ -28,8 +28,8 @@ function About() {
         // </div>
 
         <>
-           <div className="flex sm:flex-col items-center justify-around p-5">
-      <div className="text-center mb-5 w-[40%]">
+           <div className="flex  flex-wrap items-center justify-around p-5">
+      <div className="text-center mb-5 sm:w-[90vw] w-[40%]">
         <h2 className="text-2xl font-bold">Welcome</h2>
         <h1 className="text-3xl font-bold my-4">Iproof Portfolio HTML Template.</h1>
         <p className="mb-4">
@@ -49,8 +49,8 @@ function About() {
     </div>
 
      <div style={{backgroundColor:'#E91E63'}}  className="text-white flex justify-between items-center p-10">
-      <h1 className="text-3xl text-white-A700 font-bold">I'm a professional</h1>
-      <button className="bg-white-A700 text-pink-500 font-bold py-4 px-10 rounded shadow">
+      <h1 className="text-3xl sm:text-xl text-white-A700 font-bold">I'm a professional</h1>
+      <button className="bg-white-A700 text-pink-500 font-bold sm:py-3 sm:px-5  py-4 px-10 rounded shadow">
         Hire Me
       </button>
     </div>
@@ -59,12 +59,12 @@ function About() {
  
 
 
-         <div className='border-2 m-8
+         <div className='sm:border-0 sm:mx-0 m-8
          '>
          <h1 className="text-3xl mx-7 font-bold">
-            John Doe <span className="text-gray-500">/ Web Developer</span>
+            Shubham SIngh <span className="text-gray-500">/ Web Developer</span>
           </h1>
-          <hr className="border-t-2 border-black w-16 my-2" />
+         
          <div className="grid  grid-cols-3 justify-around  m-2 mx-auto p-5">
       
       {/* Profile Info Section */}
@@ -83,18 +83,18 @@ function About() {
           <p className="flex items-center"><span className="text-pink-500 mr-2">📞</span> +123 456 789</p>
           <p className="flex items-center"><span className="text-pink-500 mr-2">✉️</span> example@example.com</p>
         </div>
-        <button className="bg-pink-500 text-white font-bold py-2 px-4 rounded mt-4">Download My CV</button>
+        <button className="bg-pink-500 text-white-A700 font-bold py-2 px-4 rounded mt-4">Download My CV</button>
       </div>
       
     
 
       {/* Image Section */}
-      <div className="col-span-1">
-        <img src="https://themeatelier.net/site-templates/iproof/img/about-img/me-design.png" alt="Profile" className="rounded mx-5 shadow-lg w-[80%]" />
+      <div className="col-span-1  sm:h-50 sm:w-55">
+        <img  src="https://deeplor.s3.us-west-2.amazonaws.com/ai_paint/preview/2024/06/20/d7b0634ecea1487792b6b61c749bc5b8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240620T150156Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAROYXHKZUSZONTWIG%2F20240620%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=9e4612a1440122f61f1ed40b10309602ebbcfb610834a2ab4cfc7595c431bdb4" alt="Profile" className="rounded mx-5 shadow-lg w-[80%]" />
       </div>
     
     {/* Skills and Social Media Section */}
-    <div className=" grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div className=" grid grid-cols-1 md:grid-cols-0 sm:mt-10 sm:w-[300%] gap-10 sm:gap-50 ">
       {/* Skills Section */}
       <div>
         <h2 className="text-2xl font-bold">My Skills</h2>
@@ -148,8 +148,17 @@ function About() {
 
          {/* Github */}
 
-<div style={{backgroundColor:'#E91E63'}}  className="grid rounded-2xl opacity-[0.9] grid-cols-12  m-10 gap-4 xs:gap-6 md:gap-8 p-20">
-  <div className=" sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-5 max-md:col-span-12 !p-0">
+<div style={{backgroundColor:'#E91E63'}}  className="grid rounded-2xl opacity-[0.9] grid-cols-12 sm:m-0  sm:px-2  m-10 gap-4   md:gap-8 p-20">
+<div className=" sm:p-8 sm:w-[90vw] sm:mx-2  rounded-xl flex items-center justify-center space-y-8 border col-span-5 max-md:col-span-12 !p-0">
+    {/* Image with GitHub top languages stats */}
+    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ssdevloper&theme=transparent&layout=compact&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
+  </div>
+  <div className="p-6 sm:p-8 sm:hidden rounded-xl flex items-center justify-center space-y-8 border col-span-7 max-md:col-span-12 !p-0">
+    {/* Image with GitHub stats */}
+    <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api?username=ssdevloper&theme=transparent&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
+  </div>
+ <div className=' flex flex-wrap sm:justify-center bg-yellow-20 hidden  gap-5  sm:w-[95vw]'>
+ <div className=" sm:p-8 sm:w-[90vw]  rounded-xl flex items-center justify-center space-y-8 border col-span-5 max-md:col-span-12 !p-0">
     {/* Image with GitHub top languages stats */}
     <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ssdevloper&theme=transparent&layout=compact&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
   </div>
@@ -157,15 +166,16 @@ function About() {
     {/* Image with GitHub stats */}
     <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api?username=ssdevloper&theme=transparent&hide_border=true&title_color=FFFFFF" alt="GitHub Stats" loading="lazy" />
   </div>
-  <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-full">
+ </div>
+  <div className="p-6 sm:mx-3 sm:p-4 rounded-xl flex items-center justify-center space-y-8 sm:w-[90vw] border col-span-full">
     {/* Image with skill icons */}
-    <img className="w-full h-auto" src="https://skillicons.dev/icons?i=html,css,js,tailwind,react,next,nodejs,expressjs,c,java,mongo,redux,mysql,threejs,git,github&perline=15" alt="Skill Icons" loading="lazy" />
+    <img className="w-auto h-auto" src="https://skillicons.dev/icons?i=html,css,js,tailwind,react,next,nodejs,expressjs,c,java,mongo,redux,mysql,threejs,git,github&perline=15" alt="Skill Icons" loading="lazy" />
   </div>
-  <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-6 !p-0">
+  <div className="p-6 sm:mx-3 sm:w-[90vw] sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-6 !p-0">
     {/* Image with GitHub streak stats */}
     <img src="https://github-readme-streak-stats.herokuapp.com?user=ssdevloper&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="GitHub Streak Stats" loading="lazy" />
   </div>
-  <div className="p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-6 !p-0">
+  <div className="p-6 sm:hidden sm:p-8 rounded-xl flex items-center justify-center space-y-8 border col-span-6 !p-0">
     {/* Link to GitHub repository */}
     <a target="_blank" className="w-full" href="https://github.com/ssdevloper/100DaysOfCode-Python">
       <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/pin/?username=ssdevloper&exclude&repo=100DaysOfCode-Python&theme=transparent&hide_border=true&title_color=FFFFFF" alt="GitHub Repository Stats" loading="lazy" />
@@ -177,10 +187,10 @@ function About() {
 
  {/* Devloper */}
 
-  <div className="flex items-center justify-center mb-[5%] mt-[10%]">
+  <div className="flex sm:flex-wrap items-center justify-center mb-[5%] mt-[10%]">
    <header className="flex justify-center w-full p-5">
     <div className="logo w-[90%]">
-      <img src="https://themeatelier.net/site-templates/iproof/img/about-img/about-img.jpg" alt="" />
+      <img src="https://omnidev-courses.vercel.app/_next/static/media/learn.5fa5a7d4.svg" alt="" />
     </div>
     <nav>
       {/* Navigation items go here */}
