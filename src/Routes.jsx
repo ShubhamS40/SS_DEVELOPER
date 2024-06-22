@@ -2,7 +2,7 @@ import React from "react";
 import { useRoutes } from "react-router-dom";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
-import Homepage from "pages/Homepage";
+import Newspage from "pages/Newspage";
 import Login from "pages/Login";
 import Register from "pages/Register";
 import Profile from "pages/Profile/Profile";
@@ -23,7 +23,7 @@ const ProjectRoutes = () => {
         { path: "", element: <Home /> },
         { path: "login", element: <Login /> },
         { path: "register", element: <Register /> },
-        { path: "news", element: <Homepage /> },
+        { path: "news", element: <Newspage /> },
         { path: "contact", element: <Contact /> },
         { path: "about", element: <About /> },
         // { path: "weather", element: <Weather /> }

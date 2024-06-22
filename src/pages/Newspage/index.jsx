@@ -135,6 +135,43 @@ export default function HomepagePage() {
   const [sliderState1, setSliderState1] = React.useState(0);
   const sliderRef1 = React.useRef(null);
 
+  // const fetchData = async () => {
+  //   const url = 'https://real-time-news-data.p.rapidapi.com/local-headlines?query=New-York&country=US&lang=en&limit=5';
+  //   const options = {
+  //     method: 'GET',
+  //     headers: {
+  //       'x-rapidapi-key': '214c442645msh072a29c9372a4c7p191ff3jsn8f51e0955617',
+  //       'x-rapidapi-host': 'real-time-news-data.p.rapidapi.com'
+  //     }
+  //   };
+  
+  //   try {
+  //     const response = await fetch(url, options);
+  //     const data = await response.json();
+      
+  //     // Assuming data is an array of news items with image URLs
+  //     const updatedData = data.map(item => ({
+  //       image: item.photo_url,  // Assuming the API response structure, adjust as per actual API response
+  //       title: item.title,  // Adjust field names based on actual API response
+  //       date: item.published_datetime_utc,
+  //       duration: item.duration
+  //     }));
+  
+  //     setNewsData(updatedData);  // Update state with fetched data
+  //   } catch (error) {
+  //     console.error('Error fetching data:', error);
+  //   }
+  // };
+  
+  // export default function HomepagePage() {
+  //   const [newsData, setNewsData] = useState(initialData);
+  
+  //   useEffect(() => {
+  //     fetchData();
+  //   }, []);
+  
+  
+
   return (
     <>
       <Helmet>

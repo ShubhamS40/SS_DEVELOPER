@@ -15,16 +15,16 @@ export default function Footer({ ...props }) {
      grid ml-[14px] '>
         <div className='flex-row   inline-block '>
             <div>Phone:</div>
-            <div className='text-gray-500 hover:text-white cursor-pointer'>(+88) 755-545-551</div>
+            <div className='text-gray-500 hover:text-white cursor-pointer'>(+91) 7303298030 </div>
         </div>
 
         <div className='flex-row flex-wrap   inline-block  '>
             <div>Email:</div>
-            <div className='text-gray-500 hover:text-white cursor-pointer'>shiva2004singh@gmail.com</div>
+            <div className='text-gray-500 hover:text-white cursor-pointer'>ssdeveloper@gmail.com</div>
         </div>
         <div className='flex-row   inline-block '>
             <div>Location:</div>
-            <div className='text-gray-500 hover:text-white cursor-pointer'>delhi india street park 110011</div>
+            <div className='text-gray-500 hover:text-white cursor-pointer'>Delhi,India - 110001</div>
         </div>
     </div>
 </div>
@@ -35,14 +35,14 @@ export default function Footer({ ...props }) {
     <div className='text-white sm:space-y-2
     grid ml-[14px]'>
         
-            <div className='text-gray-500 hover:text-white cursor-pointer'>Agency Overview</div>
+            <div className='text-gray-500 hover:text-white cursor-pointer'>Community Overview</div>
     
             <div className='text-gray-500 hover:text-white cursor-pointer'>Services</div>
         
             <div className='text-gray-500 hover:text-white cursor-pointer'>Developer Tools</div>
-            <div className='text-gray-500 hover:text-white cursor-pointer'>Contact Tech</div>
+            <div className='text-gray-500 hover:text-white cursor-pointer'>Contact Tech Team</div>
             <div className='text-gray-500 hover:text-white cursor-pointer'>Careers</div>
-            <div className='text-gray-500 hover:text-white cursor-pointer'>Global Partner</div>
+            <div className='text-gray-500 hover:text-white cursor-pointer'>Helping Partner</div>
         
     </div>
 </div>
@@ -53,14 +53,14 @@ export default function Footer({ ...props }) {
     <div className='text-white 
     grid ml-[14px] sm:hidden'>
         
-            <div className='text-gray-500  hover:text-white cursor-pointer'>About Company</div>
+            <div className='text-gray-500  hover:text-white cursor-pointer'>About Community</div>
     
             <div className='text-gray-500 hover:text-white cursor-pointer'>Team</div>
         
             <div className='text-gray-500 hover:text-white cursor-pointer'>Features</div>
             <div className='text-gray-500 hover:text-white cursor-pointer'>Documentation</div>
             <div className='text-gray-500 hover:text-white cursor-pointer'>Resource</div>
-            <div className='text-gray-500 hover:text-white cursor-pointer'>Store Example</div>
+            <div className='text-gray-500 hover:text-white cursor-pointer'>Dsa</div>
         
     </div>
 </div>

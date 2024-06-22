@@ -1,6 +1,9 @@
 import Header from 'components/Header/index';
 import Footer from 'components/Footer/index';
-
+import shubham from 'assets/images/SHUBHAM.png'
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import React from 'react';
 
 function About() {
@@ -30,17 +33,17 @@ function About() {
         <>
            <div className="flex  flex-wrap items-center justify-around p-5">
       <div className="text-center mb-5 sm:w-[90vw] w-[40%]">
-        <h2 className="text-2xl font-bold">Welcome</h2>
-        <h1 className="text-3xl font-bold my-4">Iproof Portfolio HTML Template.</h1>
+        <h2 className="text-2xl font-bold">Welcome To Our Story</h2>
+        <h1 className="text-3xl font-bold my-4"></h1>
         <p className="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nihil ex corrupti placeat, maiores ipsam id vero dolore eos
-          voluptate harum commodi aliquam quidem mollitia at deleniti laudantium facere esse illum.
+        At S.S Developer, we believe in development innovation and hard work. Founded in 2023, our journey began with a simple yet profound vision: .
+
+
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Exercitationem fugit similique, animi tempora itaque doloremque
-          at eveniet, deleniti dicta quisquam, cupiditate debitis numquam. Error voluptatibus, cupiditate maiores eligendi ea fuga.
-          Nihil ex corrupti placeat, maiores ipsam id vero dolore eos voluptate harum commodi aliquam quidem mollitia at deleniti
-          laudantium facere esse illum.
+        Driven by a passion for industry or field, we strive to  Our goal and main motive of this community is to hellp and support the poor People that not purchase the courses. Through Our specific approach or methodology is to help the developers, we aim to build new thing and innovatives and startup .
+
+
         </p>
       </div>
       <div className="text-center">
@@ -90,7 +93,7 @@ function About() {
 
       {/* Image Section */}
       <div className="col-span-1  sm:h-50 sm:w-55">
-        <img  src="https://deeplor.s3.us-west-2.amazonaws.com/ai_paint/preview/2024/06/20/d7b0634ecea1487792b6b61c749bc5b8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240620T150156Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAROYXHKZUSZONTWIG%2F20240620%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=9e4612a1440122f61f1ed40b10309602ebbcfb610834a2ab4cfc7595c431bdb4" alt="Profile" className="rounded mx-5 shadow-lg w-[80%]" />
+        <img  src={shubham} alt="Profile" className="rounded mx-5 shadow-lg w-[80%]" />
       </div>
     
     {/* Skills and Social Media Section */}
@@ -136,9 +139,9 @@ function About() {
       <div>
         <h2 className="text-2xl font-bold">Follow Me</h2>
         <div className="flex mt-4 space-x-4">
-          <a href="#" className="text-blue-500"><i className="fab fa-facebook-f"></i></a>
-          <a href="#" className="text-blue-400"><i className="fab fa-twitter"></i></a>
-          <a href="#" className="text-blue-700"><i className="fab fa-linkedin-in"></i></a>
+          <a href="#" className="text-blue-500"><FaGithub className='h-8 w-8' /></a>
+          <a href="#" className="text-blue-400"><FaLinkedin className='h-8 w-8' /></a>
+          <a href="#" className="text-blue-700"><FaXTwitter className='h-8 w-8' /> </a>
           <a href="#" className="text-pink-500"><i className="fab fa-dribbble"></i></a>
         </div>
       </div>
@@ -198,17 +201,20 @@ function About() {
    </header>
    <div className="flex items-center justify-center w-full">
     <div className="flex flex-col items-start p-10 bg-white shadow-lg rounded-lg">
-      <h2 className="text-2xl font-bold text-gray-800">I'm a Developer</h2>
-      <p className="text-lg text-gray-600">I Develop Applications that Help People</p>
+      <h2 className="text-2xl font-bold text-gray-800">Registration</h2>
+      <p className="text-lg text-gray-600">For the Joining Our Developer Community </p>
       <p className="mt-4 text-gray-500">
-        Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat
+      Join the developer community to explore new technologies and push the boundaries of what's possible.
+      Connect with fellow developers to learn from their experiences and grow together in your coding journey.
+      Join a vibrant community where you can collaborate on exciting projects that make a real impact.
       </p>
       <p className="mt-2 text-gray-500">
-        Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+      Network with industry leaders and influencers who can mentor and guide you in your career
+      Contribute to open-source projects and make a meaningful impact on the global developer community.
       </p>
     
        <button className='px-7 mt-4 rounded-full py-3 bg-pink-600 text-white-A700'>
-       View Portfolio
+       Registration
        </button>
       
     </div>
