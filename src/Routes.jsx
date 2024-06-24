@@ -8,9 +8,9 @@ import Register from "pages/Register";
 import Profile from "pages/Profile/Profile";
 import Contact from "pages/Contact/Contact";
 import About from "pages/About/About";
-import Wheather from "pages/Wheather/Wheather";
-import App from "App";
+// import Weather from "pages/Weather/Weather";
 import MainLayout from "Maincomponent";
+import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";  // Adjust the path as necessary
 
 const ProjectRoutes = () => {
   let element = useRoutes([
@@ -19,14 +19,13 @@ const ProjectRoutes = () => {
       path: "/",
       element: <MainLayout />,
       children: [
-        { path: "/", element: <Profile /> },
-        { path: "", element: <Home /> },
+        { path: "/", element: <ProtectedRoute><Profile /></ProtectedRoute> },
         { path: "login", element: <Login /> },
         { path: "register", element: <Register /> },
-        { path: "news", element: <Newspage /> },
-        { path: "contact", element: <Contact /> },
-        { path: "about", element: <About /> },
-        // { path: "weather", element: <Weather /> }
+        { path: "news", element: <ProtectedRoute><Newspage /></ProtectedRoute> },
+        { path: "contact", element: <ProtectedRoute><Contact /></ProtectedRoute> },
+        { path: "about", element: <ProtectedRoute><About /></ProtectedRoute> },
+        // { path: "weather", element: <ProtectedRoute><Weather /></ProtectedRoute> },
       ],
     },
   ]);
