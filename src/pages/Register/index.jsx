@@ -25,7 +25,7 @@ export default function RegisterPage() {
     }
 
     try {
-      let response = await fetch("http://localhost:2000/register", {
+      let response = await fetch("https://api-three-gilt-52.vercel.app/register", {
         method: "POST",
         body: JSON.stringify({ name, email, password }),
         headers: {

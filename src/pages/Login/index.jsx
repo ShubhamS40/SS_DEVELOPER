@@ -17,7 +17,7 @@ export default function LoginPage() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      let response = await fetch("http://localhost:2000/login", {
+      let response = await fetch("https://api-three-gilt-52.vercel.app/login", {
         method: "POST",
         body: JSON.stringify({ email, password }),
         headers: {

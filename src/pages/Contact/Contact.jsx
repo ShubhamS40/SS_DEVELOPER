@@ -17,7 +17,7 @@ function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        let result = await fetch("http://localhost:2000/contact", {
+        let result = await fetch("https://api-three-gilt-52.vercel.app/contact", {
             method: "post",
             body: JSON.stringify({ name, email, message }),
             headers: {
